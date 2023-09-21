@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+img{ 
+    width: 200px;
+    height: 200px;
+} 
+/* IMG É SÓ UM LEMBRETE DE FIXAR OS TAMANHOS PARA AS IMAGENS, CRIANDO UMA CLASSE UNICA. */
