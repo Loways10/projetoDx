@@ -153,6 +153,7 @@ header div ul a:hover{
     z-index: 99999;
     background: #444;
     border-radius: 5px;
+    box-shadow: 5px 5px 10px solid white;
 }
 
 .nav-top .nav-submenu li{
