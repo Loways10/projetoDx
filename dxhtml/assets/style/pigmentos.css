@@ -1,0 +1,66 @@
+.page-pigmentos ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    padding-left: 5px;
+    gap: 10px;
+}
+
+.page-pigmentos h1{
+    color: #ffb703;
+    padding: 20px 0;
+}
+
+.pig-yellow{
+    color: #ffd903;
+    padding: 20px 0;
+}
+
+.pig-blue{
+    color: #1403ff;
+    padding: 20px 0;
+}
+
+.pig-red{
+    color: #ee0202;
+    padding: 20px 0;
+}
+
+.page-pigmentos p{
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.page-pigmentos ul{
+    padding: 20px 0;
+}
+
+.page-pigmentos ul li{
+    padding: 5px;
+    color: gray;
+    list-style-type: none;
+}
+
+.page-pigmentos li::before {
+    content: "\2714"; 
+    color: white;
+    display: inline-block;
+    width: 20px 0; 
+    text-align: center;
+    margin-right: 10px; 
+}
+
+.page-pigmentos div img{
+    width: 30%;
+    height: 30%;
+}
+
+.page-pigmentos div {
+    position: relative;
+}
+
+.page-pigmentos img {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}

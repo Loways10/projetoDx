@@ -1,0 +1,28 @@
+.page-corantes h1{
+    color: #ffb703;
+    padding: 20px 0;
+}
+
+.page-corantes p{
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.page-corantes ul{
+    padding: 20px 0;
+}
+
+.page-corantes ul li{
+    padding: 15px;
+    color: gray;
+    list-style-type: none;
+}
+
+.page-corantes li::before {
+    content: "\2714"; 
+    color: white;
+    display: inline-block;
+    width: 20px 0; 
+    text-align: center;
+    margin-right: 10px; 
+}

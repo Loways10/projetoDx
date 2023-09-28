@@ -1,0 +1,38 @@
+.page-dt h1{
+    color: #ffb703;
+    padding: 20px 0;
+}
+
+.page-dt p{
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.page-dt ul{
+    padding: 20px 0;
+}
+
+.page-dt ul li{
+    padding: 10px;
+    color: gray;
+    list-style-type: none;
+}
+
+.page-dt li::before {
+    content: "\2714"; 
+    color: white;
+    display: inline-block;
+    width: 20px 0; 
+    text-align: center;
+    margin-right: 10px; 
+}
+
+.page-dt div {
+    position: relative;
+}
+
+.page-dt img {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}

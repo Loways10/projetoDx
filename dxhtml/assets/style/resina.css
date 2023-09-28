@@ -1,0 +1,43 @@
+.page-resinas h1{
+    color: #ffb703;
+    padding: 20px 0;
+}
+
+.page-resinas p{
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.page-resinas ul{
+    padding: 20px 0;
+}
+
+.page-resinas ul li{
+    padding: 10px;
+    color: gray;
+    list-style-type: none;
+}
+
+.page-resinas li::before {
+    content: "\2714"; 
+    color: white;
+    display: inline-block;
+    width: 20px 0; 
+    text-align: center;
+    margin-right: 10px; 
+}
+
+.page-resinas div {
+    position: relative;
+}
+
+.page-resinas img {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.page-resinas div img{
+    width: 30%;
+    height: 30%;
+}
